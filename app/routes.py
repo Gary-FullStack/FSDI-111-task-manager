@@ -37,7 +37,7 @@ def create_task():
     task_data = {
         "summary": raw_data.get("summary"),
         "description": raw_data.get("description"),
-        "status": raw_data.get("status"),
+        "status_id": raw_data.get("status_id"),
         "active": raw_data.get("active")
     }
     task.insert(task_data)
@@ -49,7 +49,7 @@ def update_task(pk):
     task_data = {
         "summary": raw_data.get("summary"),
         "description": raw_data.get("description"),
-        "status": raw_data.get("status"),
+        "status_id": raw_data.get("status_id"),
         "active": raw_data.get("active")    
     }
     task.update(task_data, pk)
