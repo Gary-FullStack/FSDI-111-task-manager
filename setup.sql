@@ -34,7 +34,7 @@ INSERT INTO task (
     status_id
 ) VALUES (
     "Mow the lawn",
-    "Trim the hedges",
+    "Don't run over the roses this time",
     1
 );
 
@@ -44,6 +44,6 @@ INSERT INTO task (
     status_id
 ) VALUES (
     "wash the car",
-    "change the oil",
+    "Use only dehydrated water",
     1
 );
